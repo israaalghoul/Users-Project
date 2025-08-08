@@ -37,7 +37,7 @@ const Header = () => {
               </svg>
             </button>
           </div>
-          {menuOpen && (
+          {dropdownList && (
             <ul className="hidden w-full flex flex-col items-center bg-white px-6 py-4 text-gray-700 space-y-4 shadow-md">
               <li><Link to={"/"} className=""> Home </Link></li>
               <li><Link to={"/users"} className=""> Users </Link></li>
